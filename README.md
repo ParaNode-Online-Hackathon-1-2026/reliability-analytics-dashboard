@@ -192,25 +192,6 @@ Computed server-side for every vendor on every request.
 
 ---
 
-## Screenshots
-
-<!-- TODO: Add screenshots here. Recommended images: -->
-
-| Page | Preview |
-|------|---------|
-| **Login** | `screenshots/login.png` |
-| **Admin Dashboard** | `screenshots/dashboard.png` |
-| **Vendor Detail** | `screenshots/vendor-detail.png` |
-| **Reports** | `screenshots/reports.png` |
-| **Settings** | `screenshots/settings.png` |
-
-<!--
-Create a `screenshots/` folder at the project root and add images named as above.
-Suggested dimensions: 1280×800 or 1920×1080.
--->
-
----
-
 ## Getting Started
 
 ### Prerequisites
