@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors());
 app.use(express.json());
 
 const authRouter = require('./routes/auth');
@@ -17,6 +17,12 @@ app.use('/api/auth', authRouter);
 app.use('/api/vendors', vendorsRouter);
 app.use('/api', statsRouter);         // mounts GET /api/summary
 app.use('/api/stats', statsRouter);   // mounts GET /api/stats/complaints + /deliveries
+app.get('/', (req, res) => {
+  res.json({
+    service: 'Reliability Analytics Dashboard API',
+    status: 'running'
+  });
+});
 
 // Global error handler
 app.use((err, req, res, next) => {
