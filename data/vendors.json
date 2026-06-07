@@ -1,0 +1,212 @@
+[
+  {
+    "id": "v001",
+    "name": "SupplyCo",
+    "totalOrders": 320,
+    "completedOrders": 278,
+    "failedOrders": 42,
+    "deliveryRate": 86.9,
+    "totalComplaints": 5,
+    "avgResponseTime": 12,
+    "rating": 4.2,
+    "region": "North",
+    "weeklyData": [
+      { "day": "Mon", "deliveryRate": 85, "complaints": 1 },
+      { "day": "Tue", "deliveryRate": 90, "complaints": 0 },
+      { "day": "Wed", "deliveryRate": 78, "complaints": 2 },
+      { "day": "Thu", "deliveryRate": 92, "complaints": 0 },
+      { "day": "Fri", "deliveryRate": 88, "complaints": 1 },
+      { "day": "Sat", "deliveryRate": 80, "complaints": 3 },
+      { "day": "Sun", "deliveryRate": 95, "complaints": 0 }
+    ]
+  },
+  {
+    "id": "v002",
+    "name": "FastFreight",
+    "totalOrders": 410,
+    "completedOrders": 398,
+    "failedOrders": 12,
+    "deliveryRate": 97.1,
+    "totalComplaints": 1,
+    "avgResponseTime": 5,
+    "rating": 4.9,
+    "region": "South",
+    "weeklyData": [
+      { "day": "Mon", "deliveryRate": 96, "complaints": 0 },
+      { "day": "Tue", "deliveryRate": 98, "complaints": 0 },
+      { "day": "Wed", "deliveryRate": 97, "complaints": 1 },
+      { "day": "Thu", "deliveryRate": 99, "complaints": 0 },
+      { "day": "Fri", "deliveryRate": 96, "complaints": 0 },
+      { "day": "Sat", "deliveryRate": 98, "complaints": 0 },
+      { "day": "Sun", "deliveryRate": 97, "complaints": 0 }
+    ]
+  },
+  {
+    "id": "v003",
+    "name": "QuickShip",
+    "totalOrders": 280,
+    "completedOrders": 210,
+    "failedOrders": 70,
+    "deliveryRate": 75.0,
+    "totalComplaints": 14,
+    "avgResponseTime": 22,
+    "rating": 3.1,
+    "region": "East",
+    "weeklyData": [
+      { "day": "Mon", "deliveryRate": 70, "complaints": 3 },
+      { "day": "Tue", "deliveryRate": 78, "complaints": 2 },
+      { "day": "Wed", "deliveryRate": 72, "complaints": 2 },
+      { "day": "Thu", "deliveryRate": 80, "complaints": 1 },
+      { "day": "Fri", "deliveryRate": 74, "complaints": 2 },
+      { "day": "Sat", "deliveryRate": 68, "complaints": 4 },
+      { "day": "Sun", "deliveryRate": 82, "complaints": 0 }
+    ]
+  },
+  {
+    "id": "v004",
+    "name": "RaviStores",
+    "totalOrders": 143,
+    "completedOrders": 122,
+    "failedOrders": 21,
+    "deliveryRate": 85.3,
+    "totalComplaints": 4,
+    "avgResponseTime": 14,
+    "rating": 4.0,
+    "region": "West",
+    "weeklyData": [
+      { "day": "Mon", "deliveryRate": 82, "complaints": 1 },
+      { "day": "Tue", "deliveryRate": 88, "complaints": 0 },
+      { "day": "Wed", "deliveryRate": 84, "complaints": 1 },
+      { "day": "Thu", "deliveryRate": 87, "complaints": 0 },
+      { "day": "Fri", "deliveryRate": 85, "complaints": 1 },
+      { "day": "Sat", "deliveryRate": 83, "complaints": 1 },
+      { "day": "Sun", "deliveryRate": 90, "complaints": 0 }
+    ]
+  },
+  {
+    "id": "v005",
+    "name": "NexaLogix",
+    "totalOrders": 500,
+    "completedOrders": 270,
+    "failedOrders": 230,
+    "deliveryRate": 54.0,
+    "totalComplaints": 31,
+    "avgResponseTime": 48,
+    "rating": 2.1,
+    "region": "North",
+    "weeklyData": [
+      { "day": "Mon", "deliveryRate": 50, "complaints": 5 },
+      { "day": "Tue", "deliveryRate": 58, "complaints": 4 },
+      { "day": "Wed", "deliveryRate": 52, "complaints": 6 },
+      { "day": "Thu", "deliveryRate": 60, "complaints": 3 },
+      { "day": "Fri", "deliveryRate": 55, "complaints": 5 },
+      { "day": "Sat", "deliveryRate": 48, "complaints": 8 },
+      { "day": "Sun", "deliveryRate": 62, "complaints": 0 }
+    ]
+  },
+  {
+    "id": "v006",
+    "name": "ZenithCargo",
+    "totalOrders": 360,
+    "completedOrders": 324,
+    "failedOrders": 36,
+    "deliveryRate": 90.0,
+    "totalComplaints": 3,
+    "avgResponseTime": 8,
+    "rating": 4.6,
+    "region": "South",
+    "weeklyData": [
+      { "day": "Mon", "deliveryRate": 88, "complaints": 1 },
+      { "day": "Tue", "deliveryRate": 92, "complaints": 0 },
+      { "day": "Wed", "deliveryRate": 90, "complaints": 0 },
+      { "day": "Thu", "deliveryRate": 94, "complaints": 0 },
+      { "day": "Fri", "deliveryRate": 89, "complaints": 1 },
+      { "day": "Sat", "deliveryRate": 87, "complaints": 1 },
+      { "day": "Sun", "deliveryRate": 93, "complaints": 0 }
+    ]
+  },
+  {
+    "id": "v007",
+    "name": "PrimeDeliver",
+    "totalOrders": 450,
+    "completedOrders": 432,
+    "failedOrders": 18,
+    "deliveryRate": 96.0,
+    "totalComplaints": 2,
+    "avgResponseTime": 6,
+    "rating": 4.8,
+    "region": "East",
+    "weeklyData": [
+      { "day": "Mon", "deliveryRate": 95, "complaints": 0 },
+      { "day": "Tue", "deliveryRate": 97, "complaints": 0 },
+      { "day": "Wed", "deliveryRate": 96, "complaints": 1 },
+      { "day": "Thu", "deliveryRate": 98, "complaints": 0 },
+      { "day": "Fri", "deliveryRate": 95, "complaints": 1 },
+      { "day": "Sat", "deliveryRate": 96, "complaints": 0 },
+      { "day": "Sun", "deliveryRate": 97, "complaints": 0 }
+    ]
+  },
+  {
+    "id": "v008",
+    "name": "MediMove",
+    "totalOrders": 200,
+    "completedOrders": 130,
+    "failedOrders": 70,
+    "deliveryRate": 65.0,
+    "totalComplaints": 18,
+    "avgResponseTime": 35,
+    "rating": 2.8,
+    "region": "West",
+    "weeklyData": [
+      { "day": "Mon", "deliveryRate": 62, "complaints": 3 },
+      { "day": "Tue", "deliveryRate": 68, "complaints": 2 },
+      { "day": "Wed", "deliveryRate": 64, "complaints": 3 },
+      { "day": "Thu", "deliveryRate": 70, "complaints": 2 },
+      { "day": "Fri", "deliveryRate": 65, "complaints": 3 },
+      { "day": "Sat", "deliveryRate": 60, "complaints": 5 },
+      { "day": "Sun", "deliveryRate": 72, "complaints": 0 }
+    ]
+  },
+  {
+    "id": "v009",
+    "name": "SkyRoute",
+    "totalOrders": 390,
+    "completedOrders": 351,
+    "failedOrders": 39,
+    "deliveryRate": 90.0,
+    "totalComplaints": 6,
+    "avgResponseTime": 10,
+    "rating": 4.4,
+    "region": "North",
+    "weeklyData": [
+      { "day": "Mon", "deliveryRate": 88, "complaints": 1 },
+      { "day": "Tue", "deliveryRate": 91, "complaints": 0 },
+      { "day": "Wed", "deliveryRate": 89, "complaints": 1 },
+      { "day": "Thu", "deliveryRate": 93, "complaints": 0 },
+      { "day": "Fri", "deliveryRate": 90, "complaints": 1 },
+      { "day": "Sat", "deliveryRate": 87, "complaints": 2 },
+      { "day": "Sun", "deliveryRate": 94, "complaints": 1 }
+    ]
+  },
+  {
+    "id": "v010",
+    "name": "LocalLink",
+    "totalOrders": 175,
+    "completedOrders": 98,
+    "failedOrders": 77,
+    "deliveryRate": 56.0,
+    "totalComplaints": 22,
+    "avgResponseTime": 42,
+    "rating": 2.3,
+    "region": "East",
+    "weeklyData": [
+      { "day": "Mon", "deliveryRate": 54, "complaints": 4 },
+      { "day": "Tue", "deliveryRate": 60, "complaints": 3 },
+      { "day": "Wed", "deliveryRate": 55, "complaints": 4 },
+      { "day": "Thu", "deliveryRate": 62, "complaints": 2 },
+      { "day": "Fri", "deliveryRate": 57, "complaints": 4 },
+      { "day": "Sat", "deliveryRate": 50, "complaints": 5 },
+      { "day": "Sun", "deliveryRate": 65, "complaints": 0 }
+    ]
+  }
+]

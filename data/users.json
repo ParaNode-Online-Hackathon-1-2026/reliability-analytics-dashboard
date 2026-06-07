@@ -1,0 +1,19 @@
+[
+  {
+    "username": "admin",
+    "password": "admin123",
+    "role": "admin"
+  },
+  {
+    "username": "supplyco",
+    "password": "vendor123",
+    "role": "vendor",
+    "vendorId": "v001"
+  },
+  {
+    "username": "quickmart",
+    "password": "vendor123",
+    "role": "vendor",
+    "vendorId": "v002"
+  }
+]
