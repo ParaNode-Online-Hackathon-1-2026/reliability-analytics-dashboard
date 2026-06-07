@@ -17,10 +17,18 @@ app.use('/api/auth', authRouter);
 app.use('/api/vendors', vendorsRouter);
 app.use('/api', statsRouter);         // mounts GET /api/summary
 app.use('/api/stats', statsRouter);   // mounts GET /api/stats/complaints + /deliveries
-app.get('/', (req, res) => {
+
+app.get("/", (req, res) => {
   res.json({
-    service: 'Reliability Analytics Dashboard API',
-    status: 'running'
+    service: "Reliability Analytics Dashboard API",
+    status: "running",
+    endpoints: [
+      "/api/vendors",
+      "/api/summary",
+      "/api/stats/complaints",
+      "/api/stats/deliveries",
+      "/api/auth/login"
+    ]
   });
 });
 
